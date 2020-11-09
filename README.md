@@ -45,19 +45,20 @@
 		compared to the original one</li>
 		 </ul>
 		Returned  object example: <br>
-	`{ pass: "secret",
-	  optimized : [
-			{filename :"optimized/test.jpg", procent : 70},	   
-			{filename :"optimized/test.jpg", procent :70},	   
-			{filename :"optimized/test.jpg", procent :60},	   
-			{filename :"optimized/test.jpg", procent :70},	  
-			{filename :"optimized/test.jpg", procent :70},   
-			{filename :"optimized/test.jpg", procent :70},   
-			{filename :"optimized/test.jpg", procent :70}
-		]
-	}`
-	</li>	      
+	</li>      
 </ul>  
+
+```javascript
+{ 
+  pass: "secret",
+  optimized : [
+	{filePath :"optimized/image1.jpg", procent : 70},
+	{filePath :"optimized/image2.png", procent :60},
+             ]
+}
+```
+
+
 <b> Observations: </b>
 <ul>
 <li> 

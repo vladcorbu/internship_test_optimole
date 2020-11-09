@@ -8,7 +8,7 @@ test("Test your code", async done => {
 			expect(typeof response.optimized).toBe('object');
 			expect(response.optimized.length).toBe(7);
 			for (const optimized of response.optimized) {
-				expect(typeof optimized.filename).toBe('string');
+				expect(typeof optimized.filePath).toBe('string');
 				expect(typeof optimized.procent).toBe('number');
 				expect(optimized.procent < 100).toBeTruthy();
 				expect(optimized.procent > 50).toBeTruthy();
