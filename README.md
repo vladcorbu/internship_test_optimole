@@ -7,7 +7,7 @@
 	  in the project folder, if you delete the "optimized" folder and run the code, 
 	  the test first time will fail and  second time will work. Why? Possibly because 
 	  when I try to read the file for getting its size the file it's still not created, altough I explicitly
-	  mentioned "awai"t for the the files to be created, somehow it doesn't do like so. The funny and interesting fact,
+	  mentioned "await" for the the files to be created, somehow it doesn't do like so. The funny and interesting fact,
 	  is that when you debug the code it has enough time to put its files and the first test, with the optimized folder
 	  deleted, will actually work!
 	</li>
