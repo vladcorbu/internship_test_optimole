@@ -12,6 +12,7 @@ exports.handler = async function (event) {
 		initial_path = './images/' + initial_files[i];
 		procent = (1-exports.getFilesizeInBytes(optimized[i].filePath)/exports.getFilesizeInBytes(initial_path))*100;
 		optimized[i].procent = procent;
+		optimized[i].filePath = optimized[i].filePath.slice(1);
 	}
 	response = { 
 		pass: decode64(event),
