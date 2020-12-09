@@ -34,7 +34,7 @@ exports.moveImages = async function() {
 }
 
 
-//function to return 
+//function to return file size in bytes
 exports.getFilesizeInBytes = function(filename) {
     var stats = fs.statSync(filename);
 	var fileSizeInBytes = stats.size;
